@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="top-container">
+    <div class="search-container">
+      <input class="search-box" type="text" placeholder="Search Location">
+      <div class="search-icon"></div>
+    </div>
+  </header>
+
+  <div class="error-message">
+    Location not found. Search must be in the form of "City", "City, State", or "City, Country"
+  </div>
+
+  <main>
+    <div>
+      <div class="name">Glendale, Arizona</div>
+      <div class="date">2023-12-24</div>
+      <div class="time">10:08</div>
+
+      <div class="temp">48 &degF</div>
+
+      <div class="condition">Mist</div>
+
+        <img class="condition-image" src="https://cdn.weatherapi.com/weather/64x64/day/143.png" alt="">
+    </div>
+
+    <div>
+      <div class="title">Feels Like </div>
+      <div class="value feels-like">48 &degF</div>
+
+      <div class="title2">humidity</div>
+      <div class="value humidity">48%</div>
+    </div>
+
+    <div>
+      <div class="title">Cloud Coverage</div>
+      <div class="value cloud">100%</div>
+
+      <div class="title2">Wind Speed</div>
+      <div class="value wind">2.8 mph</div>
+    </div>
+
+    <div>
+      <div class="title">Precipitation (in)</div>
+      <div class="value precipitation">0</div>
+
+      <div class="title2">Pressure (in)</div>
+      <div class="value pressure">30.18</div>
+    </div>
+  
+    
+  </main>
+  
+</body>
+
+</html>
