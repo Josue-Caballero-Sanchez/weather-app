@@ -47,10 +47,6 @@ async function getInfo(place){
         printwind(windSpeed);
         printPrecipitation(precipitation);
         printPressure(pressure);
-
-        console.log(feelsLike);
-        console.log(temp);
-        console.log(info);
     }
     catch(error){
         showErrorMessage();
@@ -100,7 +96,7 @@ const main = (() =>{
 
 function filter(e){
     let inputValue = e.target.value;
-    let sanitizedValue = inputValue.replace(/[^a-zA-Z\s]/g, '');
+    let sanitizedValue = inputValue.replace(/[^a-zA-Z, ]/g, '');
     e.target.value = sanitizedValue;
 }
 
