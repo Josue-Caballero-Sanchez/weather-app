@@ -69,6 +69,7 @@ main{
     margin: 15vh;
     gap: 6vw;
     margin-left: 10vw;
+    justify-content: center;
 }
 
 .name{
